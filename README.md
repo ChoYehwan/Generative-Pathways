@@ -6,7 +6,7 @@ A study of probability paths in modern generative modeling, focusing on Neural O
 
 This project explores how modern generative models transform a simple prior distribution into a complex data distribution. The main focus is on comparing Diffusion Models and Flow Matching from the perspective of probability paths, sample trajectories, and sampling efficiency.
 
-## Main Question
+## Main Research Question
 
 How do Diffusion Models and Flow Matching differ in their probability paths from a prior distribution to a data distribution, and how does this difference affect sampling efficiency and sample trajectories?
 
@@ -21,10 +21,17 @@ This project covers:
 - 2D toy experiments with probability path visualization
 - NFE-based sampling efficiency analysis
 
-## Planned Outputs
+## Project Structure
 
-- Research notes
-- Blog posts
-- PyTorch implementation
-- 2D visualization experiments
-- Final individual research report
+```text
+Generative-Pathways/
+├── README.md
+├── requirements.txt
+├── notes/
+├── src/
+├── notebooks/
+├── results/
+│   ├── figures/
+│   └── tables/
+├── blog/
+└── report/
